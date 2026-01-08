@@ -1,0 +1,10 @@
+# 4. Write to a file and then read from it.
+f=open("test.txt","w")
+f.write("Hello...My name is Shomya Sarraf.\n")
+f.write("My roll number is 23053668.\n")
+f.write("My hometown is Birgunj,Nepal.\n")
+f.write("Welcome to file Handling.\n")
+f.close()
+f=open("test.txt","r")
+print(f.read())
+print("Shomya Sarraf, 23053668")
